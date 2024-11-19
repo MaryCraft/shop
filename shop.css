@@ -1,13 +1,51 @@
 body {
-    font-family: URW Chancery L, cursive;
+    font-family: "URW Chancery L", cursive;
+    color: #000000;
+    background-color: transparent;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #FADBD8;
-    color: #17202A;
-    padding: 10px 0;
+  }
+  
+  
+  .company-name {
+    font-size: 36px;
     text-align: center;
-}
+    margin-top: 20px;
+  }
+  
+  
+  .company-description {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "URW Chancery L", cursive;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+    

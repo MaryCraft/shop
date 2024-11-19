@@ -1,0 +1,13 @@
+body {
+    font-family: URW Chancery L, cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #FADBD8;
+    color: #17202A;
+    padding: 10px 0;
+    text-align: center;
+}

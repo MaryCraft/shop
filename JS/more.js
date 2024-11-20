@@ -1,12 +1,12 @@
 async function getResponce() {
 
-    let responce = await fetch("../shop/JS/shop.json")
+    let responce = await fetch("shop.json")
     console.log("responce:\n", responce, "\n /responce: \n")
     let content = await responce.text()
     console.log("await responce.text()\n", content)
     content = JSON.parse(content)
-    content = content.slice(0, 9)
-    console.log("content.slice(0, 9)", content)
+    content = content.slice(0, 10)
+    console.log("content.slice(0, 10)", content)
     let key
     for (key in content) {
         console.log(content[key].id, content[key].title)

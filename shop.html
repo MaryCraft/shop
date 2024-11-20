@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="stylesheet" href="shop.css"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="shop.css">
 </head>
 <body>
     <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
                     <div class="company-name"> Knitting Nook</div>
                     <div class="company-description"> Вязанные вещи ручной работы</div>
                     <nav>
-                        <ul>
-                            <li><a href="index.html" class="active">Главная</a></li>
-                            <li><a href="shop.html">Каталог</a></li>
-                            <li><a href="project.html">О проекте</a></li>
-                            <li><a href="orders.html">Заказы</a></li>
-                    
+                        <ul class="nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link active">Главная</a></li>
+                            <li class="nav-item"><a href="shop.html" class="nav-link">Каталог</a></li>
+                            <li class="nav-item"><a href="project.html" class="nav-link">О проекте</a></li>
+                            <li class="nav-item"><a href="orders.html" class="nav-link">Заказы</a></li>
                         </ul>
                     </nav>
-                </header>
-
-<div class="container">
-       <!--начало уникального содержания страницы-->
-        <div class="card-body">
-            <h5 class='card-title text-center'>Магазин</h5>
-            <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
-                <input name="q" type="hidden" value="search">
-                <ul class="d-flex flex-row justify-content-around flex-wrap bg-light" id="node_for_insert">
-                <!--начало генерируемого фрагмента кода -->
-                </ul>
-                <input class="btn btn-primary" type="Submit" value="В корзину">
-            </form>
+                </div>
+            </div>
         </div>
-        <!--окончание уникального содержания страницы-->
-</div>
-<script src="JS/more.js"></script>
+    </header>
+
+    <div class="container">
+        <div class="row" id="product-container"></div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="orders.html" class="btn btn-success">В корзину</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -70,3 +70,5 @@ sweaters.forEach(sweater => {
   const productBlock = createProductBlock(sweater);
   productContainer.appendChild(productBlock);
 });
+
+
